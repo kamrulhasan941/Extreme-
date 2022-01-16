@@ -1,0 +1,85 @@
+.nav-sec{
+    background-color: black;
+    height:3000px;
+    background-image: url(/image/menu_pattern_3\ 2.png);
+    position: cover;
+}
+.nav-var{
+   
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top:40px;
+}
+.logo{
+    margin-left:40px;
+    margin-top: 15px;
+}
+.nav-var li a{
+    color: white;
+}
+.nav-var li a:hover{
+    color: tomato;
+    text-decoration: none;
+}
+.nav-var li.active a{
+    color:tomato;
+}
+.main-header{
+    text-align: center;
+    color:#F93737;
+    margin-top:5px;
+}
+.main-queit{
+    display: flex;
+}
+.main-queit p{
+    font-size: 20px;
+    word-spacing: 20px;
+}
+/* .rows{
+    margin-top: 5px;
+    display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+ 
+} */
+.cart-1{
+    height: 200px;
+    background-color: seashell;
+    margin-left: -2px;
+    
+}
+.cart-1 img{
+    width: 20%;
+    height: 40%;
+    margin-top: 20px;margin-right: 5px;
+}
+.cart-1 h3{
+margin-top: 20px;
+margin-left: -50px;
+}
+.cart-1 p {
+    margin-left: 10px;
+}
+.about-service{
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.desk{
+    color: white;
+    font-size: 20px;
+    margin-top: 300px;
+}
+.fixed-menu{
+    position: fixed;
+}
+.solutions{
+    text-align: center;
+    background-color:#C4C4C4;
+    margin-top: 20px;
+}
+.articies{
+    box-sizing: border-box;
+    border-radius: 5px;
+}
